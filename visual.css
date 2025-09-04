@@ -2,6 +2,15 @@ body{
     background-color: white;
 }
 
-p{
+.linha1{
     color: blue;
+    font-size: 20px;
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.linha2{
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
