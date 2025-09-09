@@ -1,4 +1,4 @@
-nav{
+.menuVertical{
     width: 200px;
     height: 149px;
     background-color: red;
@@ -6,16 +6,23 @@ nav{
     padding: 0px;
 }
 
-nav ul{
+.menuHorizontal{
+    width: 500px;
+    height: 149px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.menuVertical ul{
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
-nav ul li{
+.menuVertical ul li{
     height: 29px;
     border-bottom: 1px solid black;
 }
-nav ul li a{
+.menuVertical ul li a{
     text-decoration: none;
     color: white;
     border-left: 8px solid aqua;
@@ -25,13 +32,13 @@ nav ul li a{
     
 }   
 
-nav ul li a:hover{
+.menuVertical ul li a:hover{
     background-color: aqua;
     color: black;
     border-left: 8px solid red;
 }
 
-nav ul li:last-child {
+.menuVertical ul li:last-child {
     border-bottom: none;
     height: 29px;
     
