@@ -12,6 +12,28 @@
     background-color: red;
     border: 1px solid black;
 }
+.menuHorizontal ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menuHorizontal ul li{
+    height: 29px;
+    border-bottom: 1px solid black;
+}
+.menuHorizontal ul li a{
+    text-decoration: none;
+    color: white;
+    border-left: 8px solid aqua;
+    padding-left:10px;
+    line-height: 29px;
+    display: block;
+}
+.menuHorizontal ul li a:hover{
+    background-color: aqua;
+    color: black;
+    border-left: 8px solid red;
+}
 
 .menuVertical ul{
     list-style: none;
