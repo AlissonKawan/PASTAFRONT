@@ -1,0 +1,21 @@
+#wrapper{
+    width: 100%;
+    height: 3000px;
+    background: #11e9ed;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background: #fa004b;
+}
+#carrosel{
+    width: 100%;
+    height: 250px;
+    background: #53fa00;
+}
+main{
+    width: 100%;
+    height: 250px;
+    background: #fa0000
+
+}
