@@ -1,11 +1,29 @@
 *{
     padding: 0;
+    /*padding:0 = remove o espaçamento interno */
     margin: 0;
+    /*margin:0 = remove o espaçamento externo */
 }
 body {
+    height: 100vh;
+    /*height:100vh = altura total da tela */
+    box-sizing: border-box;
+    /*box-sizing:border-box = inclui bordas e padding na largura e altura total do elemento? */
     background-color: black;
-    color: #F6F6F6;
+    /*background-color:black = define a cor de fundo como preta */
+    color: white;
 }
 .titulo-destaque {
     color: #22D4FD;
+}
+
+.apresentacao {
+    margin: 10%;
+    /*margin:10% = define uma margem de 10% em todos os lados */
+    display:flex;
+    /*display:flex = define o container como flexbox */
+    align-items: center;
+    /*align-items:center = alinha os itens no centro */
+    justify-content: space-between;
+    /*space-between = espaço entre os elementos */
 }
