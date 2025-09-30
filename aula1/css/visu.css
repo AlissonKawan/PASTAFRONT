@@ -1,16 +1,57 @@
+/*estilo geral da pagina*/
+
 body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    background-color: black;
-    box-sizing: border-box;
+    font-family: Arial,sans-serif; /*fonte simples*/
+    margin: 0; /*tira a margem padrao do body*/
+    padding: 0; /*tira o padding padrao do body*/
+    margin-bottom: 150px; /*espaçamento abaixo para o rodapé*/
+    background-color: #f4f4f4; /*cor de fundo*/
+    color: #333; /*cor do texto escura*/
 }
-h1{
-    
-    color: white;
+
+/*cabeçalho*/
+
+header{
+    background-color:rgb(219, 9, 9); /*cor de fundo azul*/
+    color: white; /*cor do texto branca*/
+    text-align: center; /*alinhamento do texto ao centro*/
+    padding: 20px; /*Espaçamento interno*/
+} 
+
+/*titulos*/
+h1, h2 {
+    margin: 10px 0; /*espacamento acima e abaixo*/
 }
-p{
-    color: white;
+
+/*seções*/
+section {
+    margin: 15px; /*espacamento ao redor*/
+    padding: 40px; /*espacamento interno*/
+    background-color: white; /*cor de fundo branca*/
+    border-radius: 20px; /*bordas arredondadas*/
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.45); /*sombra leve*/
 }
+
+/*imagens*/
+img {
+   display: block; /*remove espaço embaixo da imagem*/
+   margin: 0 auto; /*centraliza a imagem*/
+   border-radius: 8px; /*bordas arredondadas*/
+}
+/*lista de serviços*/
+ul {
+    list-style-type: square; /*quadradinhos nos itens*/
+    padding-left: 20px; /*espaçamento à esquerda*/
+}
+/* rodapé */
+
+footer{
+   background-color: #333; /*cor de fundo escura*/
+   color: white; /*cor do texto branca*/
+   text-align: center; /*alinhamento do texto ao centro*/
+   padding: 20px; /*Espaçamento interno*/
+    position: fixed; /*fixa o rodapé na parte inferior*/
+    width: 100%; /*ocupa toda a largura*/
+    bottom: 0; /*fixa na parte inferior*/
+}
+

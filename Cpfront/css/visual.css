@@ -1,0 +1,17 @@
+#wrapper {
+    width: 1290px;
+    height: 2000px;
+    background: black;
+}
+div{
+    width: 70px;
+    height: 70px;
+    background: blue;
+    margin-left:1px;
+    margin-top:1px;
+    float: left;
+}
+.root{
+    background: green;
+    color: black;
+}
