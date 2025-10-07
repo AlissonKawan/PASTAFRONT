@@ -40,3 +40,8 @@ div{
 .Interactive-Elements{
     background-color: gray;
 }
+label{
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+}
