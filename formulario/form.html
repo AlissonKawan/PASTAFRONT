@@ -8,21 +8,89 @@
   <body>
     <h1>Trabalhando com Formulários</h1>
     <form name="frmCadastro" method="post">
+
       <label for="txtNome">Nome: </label>
+      <!--Nome-->
       <input type="text" name="txtNome" id="txtNome" >
       <br >
+      <!--E-Mail-->
       <label for="txtEmail">E-Mail:</label>
       <input type="email" name="txtEmail" id="txtEmail" >
-      <br />
+      <br >
+      <!--Senha-->
       <label for="pwdSenha">Senha: </label>
       <input type="password" name="pwdSenha" id="pwdSenha" >
       <br >
+      <!--Telefone-->
       <label for="telefone">Telefone: </label>
       <input type="tel" name="telefone" id="telefone" >
       <br >
-      <label for="txtCPF">CPF:</label>
+      <!--Cpf-->
+      <label for="txtCPF">CPF: </label>
       <input type="text" name="txtCPF" id="txtCPF" maxlength="14" >
-       
+      <br >
+      <!--Date-->
+      <label for="txtData">Data de Nascimento: </label>
+      <input type="date" name="txtDataNasc" id="txtDataNasc" max="2025-10-06" min="2025-01-01">
+      <br >
+      <!--Data e Hora-->
+      <label for="txtData">Horario: </label>
+      <input type="datetime-local" name="txtDataHorario" id="txtDataHorario">
+      <br >
+      <!--Hora-->
+      <label for="txtTtime">Horario: </label>
+      <input type="time" name="TxtTime" id="TxtTime">
+      <br>
+      <!--Arquivo-->
+      <label for="archive">Arquivo: </label>
+      <input type="file" name="archive" id="archive" accept=".pdf, .doc, .docx, .txt" multiple>
+      <br>
+      <label for="selEstado">Estado : </label>
+      <select name="selEstado" id="selEstado">
+        <option value="">Selecione</option>
+        <optgroup label="Região Norte">
+          <option value="AC">Acre</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="PA">Pará</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="TO">Tocantins</option>
+        </optgroup>
+        <optgroup label="Região Nordeste">
+          <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="MA">Maranhão</option>
+          <option value="PB">Paraíba</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="SE">Sergipe</option>
+        </optgroup>
+        <optgroup label="Região Centro-Oeste">
+          <option value="DF">Distrito Federal</option>
+          <option value="GO">Goiás</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+        </optgroup>
+        <optgroup label="Região Sudeste">
+          <option value="ES">Espírito Santo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="Região Sul">
+          <option value="PR">Paraná</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+        </optgroup>
+      </select>
+      <br >
+      <label for="url">URL : </label>
+      <input type="url" name="url" id="url" >
+      <br >
+      <!--Botão de enviar-->
       <br >
       <input type="submit">
 
